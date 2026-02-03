@@ -13,4 +13,11 @@ export const products = [
     image: "https://via.placeholder.com/150",
     rating: 4.0,
   },
+  {
+    id: 3,
+    name: "Produto Teste 3",
+    price: 120.00,
+    image: "https://via.placeholder.com/150",
+    rating: 5.0,
+  },
 ];
