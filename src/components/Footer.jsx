@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white text-center p-4 mt-8">
-      <p>© 2026 TrendBrothers. Todos os direitos reservados.</p>
+    <footer className="bg-blue-600 text-white p-4 text-center">
+      &copy; 2026 TrendBrothers
     </footer>
   );
 };
