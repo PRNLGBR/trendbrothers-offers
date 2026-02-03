@@ -14,6 +14,9 @@ const Home = () => {
       <main className="flex-grow p-6">
         <h1 className="text-2xl font-bold mb-4">Produtos em Destaque</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <p className="mb-4 text-sm text-gray-500">
+  Total de produtos: {products?.length}
+</p>
           {products.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
